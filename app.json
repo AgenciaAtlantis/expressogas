@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Expresso Gás",
+    "slug": "expresso-gas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#db2800"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.clubedorevendedordegas.expressogas",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#db2800"
+      },
+      "package": "com.clubedorevendedordegas.expressogas",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65a55839-83f7-4cbe-bb37-3b95b4dcb9a2"
+      }
+    },
+    "owner": "atlantis-agencia"
+  }
+}
